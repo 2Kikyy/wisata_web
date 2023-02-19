@@ -1,0 +1,145 @@
+/* For login page */
+body.body__login {
+    font-family: sans-serif;
+    background: #ebf9fb;
+}
+
+h1.h1__login {
+    text-align: center;
+    /* ketebalan font */
+    font-weight: 300;
+}
+
+.tulisan_login {
+    text-align: center;
+    /*membuat semua huruf menjadi kapital*/
+    text-transform: uppercase;
+}
+
+.kotak_login {
+    width: 350px;
+    background: white;
+    /* meletakkan form ke tengah */
+    margin: 80px auto;
+    padding: 30px 20px;
+    box-shadow: 0px 0px 100px 4px #d6d6d6;
+}
+
+label.label__login {
+    font-size: 11pt;
+}
+
+.form_login {
+    /* membuat lebar form penuh */
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    font-size: 11pt;
+    margin-bottom: 20px;
+}
+
+.tombol_login {
+    background: #2aa7e2;
+    color: white;
+    font-size: 11pt;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+}
+
+.link {
+    color: #232323;
+    text-decoration: none;
+    font-size: 10pt;
+}
+
+.alert__login {
+    background: #e44e4e;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #b32929;
+}
+
+// design for table
+// https://www.codewora.com/design/template/?templateName=1&name=table
+
+/* For index.php */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body__index {
+    font-family: 'Roboto', sans-serif;
+    background-color: #adacac;
+}
+
+.header__index h2 {
+    text-align: center;
+    font-size: 28px;
+}
+
+.header__index a {
+    text-decoration: none;
+}
+
+.table__index {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.header_fixed__index {
+    max-height: 100vh;
+    width: 100%;
+    overflow: auto;
+}
+
+.header_fixed__index th {
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: #e6e7e8;
+}
+
+.header_fixed__index th, td {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+.header_fixed__index td img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20%;
+    border: 5px solid #000;
+}
+
+.header_fixed__index tr:nth-child(even) {
+    background-color: #ddd;
+}
+
+.header_fixed__index tr:nth-child(odd) {
+    background-color: #edeef1;
+}
+
+.header_fixed__index tr:hover td {
+    color: #44b478;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
